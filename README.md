@@ -1,12 +1,11 @@
-# ✈️ JORANG 여행에 대한 모든 것<br>
+# ✈️ JORANG 여행에 대한 모든 것
 
-
-## 📃 프로젝트 개발 동기
-개인적으로 해외 여행을 좋아하는데, 다른 사람들은 내가 가고 싶은 여행지에 대해 어떻게 생각하고 계획과 경비를 어떻게 짰는지 확인하기 위해 서비스를 개발하였습니다.\
+## <br>📃 프로젝트 개발 동기
+개인적으로 해외 여행을 좋아하는데, 다른 사람들은 내가 가고 싶은 여행지에 대해 어떻게 생각하고 계획과 경비를 어떻게 짰는지 확인하기 위해 서비스를 개발하였습니다.<br><br>
 
 
 ## 📃 프로젝트 소개
-나의 여행 계획, 일지, 실제 사용한 경비를 관리하고 사람들과 공유하여 다른 사람들의 여행기를 읽고 소통하면서 내 여행을 준비하는데 필요한 정보를 얻을 수 있다.\
+나의 여행 계획, 일지, 실제 사용한 경비를 관리하고 사람들과 공유하여 다른 사람들의 여행기를 읽고 소통하면서 내 여행을 준비하는데 필요한 정보를 얻을 수 있다.<br><br>
 
 
 ## 📃 핵심 기능
@@ -17,38 +16,49 @@
 - 이미지 슬라이더 구현
 - 경비를 도표로 구현
 - 여행 일지 최신순, 좋아요순 정렬 및 여행 기간에 따른 여행 일지 필터 구현
-- 유저 아이디, 이메일 변경 시 이메일로 임시 비밀번호 발송\
+- 유저 아이디, 이메일 변경 시 이메일로 임시 비밀번호 발송<br><br>
 
-### 2. 챗봇 (아래 Langchain server 참고)
+### 2. 챗봇 (아래 Chatbot server 참고)
 
 - Langchain을 이용하여 명소, 여행지, 여행 계획 추천 기능 및 내 맞춤 여행 계획 추천 구현
-  (LLM : Google Gemini, Framework : FastAPI)\
+  (LLM : Google Gemini)<br><br>
 
-### Langchain server
+### Main server (Java with Spring boot)
 https://github.com/encore-full-stack-5/JORANG-TRAVEL-BE
 
-### Langchain server
+### Chatbot server (Python with Fast API, Langchain)
 https://github.com/encore-full-stack-5/JORANG_LANGCHAIN_SERVER
 
-### Front-End
-https://github.com/encore-full-stack-5/JORANG-TRAVEL-FE\
+### Front end (React)
+https://github.com/encore-full-stack-5/JORANG-TRAVEL-FE<br><br>
 
 
 ## ⚙️ 기술스택
 
-### Server Framework
+### Server language and framework
+![Java](https://img.shields.io/badge/java-%23ED8B00?style=for-the-badge&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Spring-Boot](https://img.shields.io/badge/spring--boot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white)
+![FASTAPI](https://img.shields.io/badge/FASTAPI-%23009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
 ### Database
 <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
 
-### Infra Framework
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)\
+### Image storage
+![Google Cloud Storage](https://img.shields.io/badge/google%20cloud%20storage-%23AECBFA?style=for-the-badge&logo=googlecloudstorage&logoColor=black)
 
-## 🧑🏻‍💻 멤버구성
- - 조진호
- - 김세현
- - 임서연\
+### LLM
+![Google gemini](https://img.shields.io/badge/google%20gemini-%238E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)<br><br>
+
+## 🧑🏻‍💻 구성원 및 역할 분담
+ 
+ - 조진호 : 날짜별 여행기 작성, 사진 업로드 및 가져오기, 유저 인증(JWT), Web Security
+ - 김세현 : 유저 로그인, 회원가입, 이메일 발송 기능 구현 
+ - 임서연 : 날짜별 여행 경비 작성 기능 구현
+ - 공통 : 명소, 여행지, 여행 계획 추천 및 내 맞춤 여행 계획 추천 기능<br><br>
    
 ## 프로젝트 구조
 
@@ -170,9 +180,10 @@ https://github.com/encore-full-stack-5/JORANG-TRAVEL-FE\
 ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ExpenseServiceTest.java<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜PostServiceImplTest.java<br>
 ┃ ┃ ┃ ┃ ┃ ┗ 📜TravelDiaryApplicationTests.java
-/
-## 🔗 ERD
-![image](https://github.com/user-attachments/assets/4266a2da-99d2-4027-a9fe-c7a8451c26a4)\
+
+
+## <br>🔗 ERD
+![image](https://github.com/user-attachments/assets/4266a2da-99d2-4027-a9fe-c7a8451c26a4)<br><br>
 
 ## 트러블 슈팅
 1. Google cloud storage를 사용할 때 Front에서 file type의 input을 보낼 때 이로부터 파일 경로를 읽어올 수 없음<br><br>
@@ -187,7 +198,7 @@ https://github.com/encore-full-stack-5/JORANG-TRAVEL-FE\
 3. Post service에서 Post와 OneToMany 관계에 있는 Diary entity의 scope(공개 범위) column가 공개인 것만 가져오는 jpa method 작성하였을 때, 비공개 데이터도 가져옴.<br><br> 
 원인 : Diary entity가 Post 기준 OneToMany관계에 있기 때문에 기본적으로 lazy loading 상태이다. 이 때, Diary를 아직 읽어오지 않은 상태에서 Diary의 scope column에 where절을 적용하기 때문에, 해당 조건은 적용되지 않는다.<br> 
 개선1 : Fetch join으로 Diary entity를 첫 query부터 가져와 조건 적용<br>
-개선2 : 결국 table 구조 변경으로 fetch join 불필요로 삭제\
+개선2 : 결국 table 구조 변경으로 fetch join 불필요로 삭제<br><br>
 
 ## 느낀 점
 진호 : 전체적으로 프로젝트의 front에서 back을 A부터 Z까지 경험을 하여 크게 성장할 수 있는 프로젝트 였다. 이 과정에서 에러를 많이 마주치고 해결해나가면서 각종 에러 케이스에 대한 시야를 넓힐 수 있었다. 특히, join 관계에 따라 query를 어떻게 쳐야하는지에 대해 심도 있게 알게 되었다. 이를 통해 N+1 loading이 왜 발생하고 fetch join으로 해결하는 과정을 몸소 느낄 수 있었다. 또한, 팀장으로서 다른 사람들의 코드를 읽어야 하는 경우가 많았는데, 이를 통해 다른 사람의 코드를 이해하는 눈을 기르고 미처 알지 못하거나 간과했던 부분에 대해 깨달았다. 이러한 과정을 통해 내 코드 뿐만 아니라, 다른 사람의 코드를 읽는 것이 실력 향상에 굉장히 도움이 된다는 것을 느꼈다.<br>
