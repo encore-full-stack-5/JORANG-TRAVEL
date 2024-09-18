@@ -34,8 +34,28 @@ https://github.com/encore-full-stack-5/JORANG_LANGCHAIN_SERVER
 ### Front end (React)
 https://github.com/encore-full-stack-5/JORANG-TRAVEL-FE<br><br>
 
+## 📃 화면 및 기능 소개 (Video)
+### 1. 나라별 여행 일지 확인 ###
 
-## ⚙️ 기술스택
+https://github.com/user-attachments/assets/a2ea9a2e-9f42-490c-aff8-9575c6e234fd
+
+### <br> 2. 전체 여행 일지 확인 ###
+
+https://github.com/user-attachments/assets/b5763e68-649d-4c56-b9f9-6a492f1f1b8f
+
+### <br> 3. 여행 일지 작성 및 공유 ###
+
+https://github.com/user-attachments/assets/a62dcd25-fe13-4b7b-92ee-a55645de2555
+
+### <br> 4. 여행 일지 임시 저장 및 수정 ###
+
+https://github.com/user-attachments/assets/bb1a542d-729c-4390-8eb5-7b50abc26043
+
+### <br> 5. 여행 챗봇 ###
+
+https://github.com/user-attachments/assets/5277301b-6221-4451-9c30-7a4ac4897c13
+
+## <br><br> ⚙️ 기술스택
 
 ### Server language and framework
 ![Java](https://img.shields.io/badge/java-%23ED8B00?style=for-the-badge&logoColor=white)
